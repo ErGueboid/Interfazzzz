@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Flask Bootstrap</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --vino: #800020;
+            --vino-hover: #a8324a;
+        }
+        .navbar {
+            background-color: var(--vino) !important;
+        }
+        .navbar .navbar-brand {
+            color: #fff !important;
+            font-weight: bold;
+        }
+        .main-container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
+        .main-title {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: var(--vino);
+            margin-bottom: 1rem;
+        }
+        .main-desc {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+        .btn-vino {
+            background-color: var(--vino);
+            color: #fff;
+            border: none;
+        }
+        .btn-vino:hover, .btn-vino:focus {
+            background-color: var(--vino-hover);
+            color: #fff;
+        }
+    </style>
+</head>
+<body style="background: #f4f8fb;">
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menú</a>
+    </div>
+</nav>
+<div class="main-container">
+    <div class="main-title">¡JELOUUUUUUUUUU!</div>
+    <div class="main-desc">
+        Sistema de Apoyos usando <b>Pilas</b> y <b>Colas</b>.<br>
+        Usa los botones para navegar entre las opciones.<br>
+        <hr>
+        <div class="text-start" style="max-width: 600px; margin: 0 auto; font-size: 1.05rem;">
+            <b>Descripción:</b><br>
+            Este sistema web permite gestionar la entrega de apoyos mediante dos estructuras de datos:
+            <ul>
+                <li><b>Cola:</b> Para la entrega de tarjetas de apoyo. Simula personas esperando su turno. Puedes agregar personas a la cola y atenderlas en orden.</li>
+                <li><b>Pila:</b> Para el historial de apoyos recibidos. Permite ver los apoyos y "deshacer" el último recibido.</li>
+            </ul>
+            El sistema cuenta con botones para agregar, atender y deshacer apoyos, y una interfaz visual clara y moderna.
+        </div>
+    </div>
+    <hr>
+    <div class="d-grid gap-2 col-6 mx-auto mt-4">
+        <a href="{{ url_for('vista_cola') }}" class="btn btn-vino btn-lg">Entregar Tarjetas (Cola)</a>
+        <a href="{{ url_for('vista_pila') }}" class="btn btn-vino btn-lg">Historial de Apoyos (Pila)</a>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
