@@ -2,6 +2,8 @@
 
 **Nombre:** Victor Daniel Gonzalez Flores   
 **Grupo y materia:** 1 - Estructura de Datos
+**Maestro:** Kevin David Molina Cruz
+
 
 ## Descripción
 Sistema web sencillo en Python usando Flask para gestionar:
