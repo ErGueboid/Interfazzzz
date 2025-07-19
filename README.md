@@ -32,7 +32,17 @@ menuflask/
    python app.py
    ```
 
-## Ejemplo de uso
-- Ve a "Entregar Tarjetas (Cola)" para agregar personas a la cola y atenderlas.
-- Ve a "Historial de Apoyos (Pila)" para agregar apoyos y deshacer el último.
+### Paso 1: Menú General
+![Menú General](ruta1.png)
+Desde el menú principal puedes elegir entre gestionar la **Cola** o el **Historial de Apoyos (Pila)**.
+
+### Paso 2: Cola de Tarjetas
+![Cola de Tarjetas](ruta2.png)
+En la sección de **Cola** puedes agregar personas y atenderlas en orden de llegada.
+
+### Paso 3: Historial de Apoyos (Pila)
+![Historial de Apoyos](ruta3.png)
+En la sección de **Pila** puedes agregar apoyos recibidos y deshacer el último si es necesario.
+
+---
 
