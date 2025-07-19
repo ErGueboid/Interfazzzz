@@ -2,6 +2,7 @@
 
 **Nombre:** Victor Daniel Gonzalez Flores   
 **Grupo y materia:** 1 - Estructura de Datos
+
 **Maestro:** Kevin David Molina Cruz
 
 
