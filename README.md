@@ -1,7 +1,7 @@
 # Sistema de Apoyos (Pilas y Colas)
 
-**Nombre:** [Tu Nombre Aquí]
-**Grupo y materia:** [Tu Grupo] - [Materia]
+**Nombre:** Victor Daniel Gonzalez Flores   
+**Grupo y materia:** 1 - Estructura de Datos
 
 ## Descripción
 Sistema web sencillo en Python usando Flask para gestionar:
@@ -31,10 +31,8 @@ menuflask/
    ```bash
    python app.py
    ```
-3. Abre tu navegador en [http://localhost:5000](http://localhost:5000)
 
 ## Ejemplo de uso
 - Ve a "Entregar Tarjetas (Cola)" para agregar personas a la cola y atenderlas.
 - Ve a "Historial de Apoyos (Pila)" para agregar apoyos y deshacer el último.
 
----
